@@ -1,0 +1,257 @@
+=== OCR Text from Exam Papers ===
+--- Image 1 ---
+Estimating resolution as 124
+PART III: FORM DESIGN (30 points)
+
+Using the "TCM Prescription Management Database”, design a form as shown in Figure | to browse
+basic physician information. Detailed design requirements are as follows
+
+1. The form should be displayed as a pop-up form when running, with border style set to "Dialog". The
+form should have no "Navigation Buttons", "Record Selectors", "Dividing Lines", or "Scroll Bars". The
+control box should have no "Maximize or Minimize Buttons", The form title should be "Physician Basic
+Information Management", (5 points)
+
+2. Add a label "Physician Basic Information Management” in the form header. The label text font should
+be "LiShu" (Official Script), size 22, bold, red color, and centered. (1 points)
+
+3. When the form is running, the detail section should correctly display each physician's basic
+information, including Physician 1D, Department Name, Physician Name, Physician Gender, Physician
+Age, Physician Photo, Physician Education, and Physician Title. Control types and layout arrangement
+should follow Figure 1. (10 points)
+
+4. Set lines at the top and bottom of the form detail section, with red color, solid border style, and 3pt
+border width. (4 points)
+
+5. Add five command buttons in the form footer to implement the following functions: Go to First
+Record, Go to Previous Record, Go to Next Record, Go to Last Record, and Close Form, (5 points)
+
+6, Pay attention to the aesthetic layout of form controls. (5 points)
+
+Physision Basic Information Manage
+
+=               mr          x
+
+igure | "Physician Basic Information Management" Form
+(Please design according to the style shown in the figure above)
+
+PART IV: COMPREHEN:
+
+ES
+
+'N (30 points)
+
+Page 2
+
+Using the "TCM Prescription Management Database", design a form as shown in Figure 2 and a report
+
+as shown in Figure 3 with the following requirements: In the "Browse and Print Prescription
+
+Information" form, click the "Select Physician” combo box to choose a physician, then click the
+
+"Refresh" button to display the basic information of prescriptions issued by the current physician in the
+
+subform control. Then click the "Preview Physician Prescription List” button to display the "Print
+
+Physician Prescription List" report in print preview mode
+
+Detailed design requirements are as follows:
+
+1. The form should be displayed as a pop-up when running, with border style set to "Dialog
+
+should have no "Navigation Buttons", "Record Selectors", "Dividing Lines", or "Seroll Bars". The
+
+control box should have no "Maximize or Minimize Buttons”, The form title should be "Browse and
+
+Print Prescription Information”. (2 points)
+
+2, Add a label "Browse and Print Prescription Information” in the form header. The label text font should
+
+be "STXinwei", size 24, bold, blue color, and centered. (1 point)
+
+3. In the label "Designer:     behind the "Refresh" button on the form, the name should be the
+
+examinee’s own name. Font should be "KaiTi", size 12, bold, red color, (1 point)
+
+4, The subform should only display five fields: "Patient Name”, "Clinical_Diagnosis"
+Formula_Name”, "Prescription Date", and "Prescription Amount". (5 points)
+
+5, The report header should display "xxxxx Prescription List", including the name and title of the
+physician selected in the "Browse and Print Prescription Information” form, Font should be "SimSun"
+size 24, bold, red color. (5 points)
+
+6. The report footer should count and display the number of prescriptions and total prescription amount
+for the physician selected in the "Browse and Print Prescription Information" form, showing "Total: xx
+Prescriptions” and "Cumulative Prescription Amount: xx Yuan." Font should be "SimSun’, size 14, bold,
+red color. (5 points)
+
+7. All information for each prescription in the report should be arranged within a rectangular box, with
+border width of 3pt and blue color. The "Prescription_ID" field should be "SimSun’, size 18, black color,
+all other fields should be "SimSun', size 12, black color. (4 points)
+
+8. The prescription 1D, prescription body. and prescription postscript sections of each prescription in the
+report should be separated by lines. The line border style should be "Dash Dot”, width Ipt, black color.
+G points)
+
+9. In the report, the "Patier      and "Prescription Amount” fields for each prescription should be
+
+The form
+
+ottom signature bar         Watermark
+
+--- Image 2 ---
+Estimating resolution as 127
+Detected 24 diacritics
+FINAL EXAMINATION PAPER FOR APPLICATION COMPUTER
+
+(For Oversea Students in Hubei University of Chinese Medicine)
+
+Student No                    Student Name.                       Specialty.
+PART No            T         a a        W        Toal | GRADER
+SUBTOTAL POINTS | 20        20        30        30        100
+STUDENT S SCORE
+
+PROMPT:
+
+1 The folder named "Exam Materials" contains the mate
+be used in Access 2016 or higher version
+
+2 Please rename the folder "Exam Materials" to a new name that includes your student ID and name, All
+the content of this exam must be saved within this folder.
+
+3 Please encompress the folder to one file(* rar, *.zip) ahead of submitting
+teacher’s Email( Yanghaifeng@hbuem.edu.cn) before Marth 27", 2026,
+
+als for the exam, and the database file should
+
+four finished works to the
+
+PART I: BASIC DATABASE OPERATIONS (20 points)
+Open the "TCM Prescription Management Database", which already contains two tables: "Department
+Table" and "Doctor Table”. Please complete the following operations in this database
+
+1. Import the file "TCM_Prescription_Information txt” from the exam materials folder into the current
+database. The new table should be named "TCM_Prescription_Table”. During the import process, please
+set the data type of the "Physician_ID” field to "Text", and set the data type of the "Patient_ Gender”
+field to "Yes/No". Records in the "TCM_Prescription_Table” must not be duplicated. (5 points)
+
+2. Make further modifications to the "TCM_Prescription Table” according to the following structural
+
+requirements. (3 points)
+
+Field Name             Data Type         Field Size           Remarks
+Prescription ID      Text            10
+Patient_Name       Text            10
+Patient_Gender       YesiNo                   0: Male, -1- Female
+Patient_Age           er
+Clinical_Diagnosis,                  30
+30
+Formula Composition | Memo
+Physician ID    [Text         10
+
+Prescription Date | Date/Time
+Prescription Amount_| Currency
+
+3. Set the "Prescription ID" field in the
+regular index named "Name_Prescriptioi          ‘ormula_Name” field. (4 points)
+4, Establish a master-detail relationship between the "T'CM_Prescription Table and the "Doctor_Table"
+sing the "Physician ID" field, and configure the referential integrity rules for this relationship as
+"Cascade Update Related Fields" and "Cascade Delete Related Fields". (4 points)
+
+Insert a new record into the "Doctor Table" with the following values: "Department_ID" as "KI"
+
+Physician ID" as the last six digits of the student's examination number, and "Physician_Gender’
+
+Physician_Age", "Physician_Title", "Physician Education” as the student's personal information, The
+"Photo" field should be left blank. (4 points)
+
+Warning: If the student ID and name are not your own, the exam will be graded as 0 points,
+
+ription_Table” as the primary key, and create a
+
+TCM Pre:
+using the
+
+PART Il: QUERY DI
+
+ESIGN (20 points, 5 points for each sub-question)
+
+Page 1
+
+1. Count the number of prescriptions issued and the tol amount for each physician whose name
+contains exactly three Chinese cl      Display the physician name, prescription count, and
+prescription subtotal. Save the query as "1_Count_Physician_Prescriptions_and_Amounts'. (5 points)
+
+2. Design a query that prompts "Please enter the minimum age:" and "Please enter the maximum age:"
+when executed. After the user inputs 25 and 40 respectively, the query should save the patient name,
+gender, age, and clinical diagnosis of patients aged between 25 and 40 to a new table named
+Patients Aged 25 to 40°, Save the query as "2_Query Patients by Age Range’. (5 points)
+
+3. Design a query that increases prescription amounts by 5% for all prescriptions in the
+"TCM_Prescription Table" that are below 150 yuan. Save the query as
+"3_Increase_Prescription_Amounts". (5 points)
+
+4. Design a query to count the number of patients of different genders treated by each physician in each
+department. Display the results in a crosstab format with department name and physician name as row
+headings and gender 本 column 。 heading Save the query as
+"4_Count_Patients_by_Department_and_Physician” (5 points)
+
+PART III: FORM DESIGN (30 points)
+
+Bottom signature bar          Watermark
+
+--- Image 3 ---
+Estimating resolution as 178
+9. In the report, the "Patient_Age" and "Prescription_Amount" fields for each prescription should be
+displayed as" X Years Old" and "¥ X X Yuan" respectively. (4 points)
+
+£3] Browse and Print Prescription Information                             o 8 8
+
+Browse and Print Prescription Information
+
+n | Li Yuan         Y| \Refresh
+
+Patient_Na - Clinical_Diag:- Formula_Name ~ Prescript - Pre:
+
+Duan Azu    Dysmenorrhea Guizhi Fuling ¥ 2015/11/1
+*
+
+iPreview Physician Prescription List
+
+Figure 2 "Browse and Print Prescription Information" Form
+Please design according to the style shown in the figure above
+8            8          »                    8
+
+Page 3
+
+Li Yuan’s Prescription List
+
+Prescription_ID 20151102
+
+Patient_Nane     Duan Azu                       Patient_Gender
+Patient_Age                      18         Clinical_Diagnosis Dysmenorrhea
+
+Fornula_Name Guizhi Fuling ¥
+
+Fornula_Conposition
+
+Cinnanon Twig 15g, Poria 20g, Red Peony 15g, Moutan Bark 10g, Peach Kernel
+10g. 5 doses, decocted in water, 3 times daily.
+
+Prescription Date     2015/11/1         Prescription_Amount
+
+Total: 1Prescriptions
+
+Cumulative Prescription Amount: 300Yuan
+
+Figure 3 "Print Physician Prescription List" Report
+(Please design according to the style shown in the figure above)
+
+PRO             PRO
+SD            Re
+Source                    iz
++
+
+Ag      oe
+
+Bottom signature bar         Watermark
+
